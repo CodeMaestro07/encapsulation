@@ -1,9 +1,11 @@
-package encapsulation.example1;
+package encapsulation.example2;
 
 public class Test {
 	public static void main(String[] args) {
 		
-		Area a1=new Area(3,4);
-		a1.getArea();
+		Person p1=new Person();
+		
+		p1.setAge(52);
+		System.out.println("Age is"+" "+p1.getAge());
 	}
 }
