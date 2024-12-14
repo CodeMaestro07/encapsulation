@@ -1,16 +1,16 @@
-package encapsulation.example4;
+package encapsulation.example5;
 
 public class Test {
 	public static void main(String[] args) {
 		
-		Demo obj=new Demo();
+		Encapsulate obj=new Encapsulate();
 		
-		obj.setEmpName("Martin");
-		obj.setEmpAge(34);
-		obj.setSsn(112233);
+		obj.setName("Harsh");
+		obj.setAge(22);
+		obj.setRoll(2);
 		
-		System.out.println("Employee Name"+" "+obj.getEmpName());
-		System.out.println("Employee Age"+" "+obj.getEmpAge());
-		System.out.println("Employee SSN"+" "+obj.getSsn());
+		System.out.println("Name :"+" "+obj.getName());
+		System.out.println("Age :"+" "+obj.getAge());
+		System.out.println("Roll :"+" "+obj.getRoll());
 	}
 }
